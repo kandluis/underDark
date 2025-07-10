@@ -1,0 +1,31 @@
+# Godot-specific ignores
+.godot/
+!.godot/exported/
+!.godot/icon.svg
+!.godot/icon.svg.import
+!.godot/project.godot
+
+# Mono-specific ignores
+.mono/
+bin/
+obj/
+
+# General ignores
+.DS_Store
+*.tmp
+*.bak
+*.swp
+
+# Exported game files
+export_presets.cfg
+*.pck
+*.zip
+*.exe
+*.dmg
+*.app
+*.html
+*.js
+*.wasm
+*.x86_64
+*.x86
+*.arm64
