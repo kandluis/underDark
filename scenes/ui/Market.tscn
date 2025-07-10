@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7j8lal0m1n2"]
+
+[ext_resource type="Script" uid="uid://dcohfwybruhkc" path="res://scripts/ui/MarketUI.gd" id="1_market_ui"]
+
+[node name="Market" type="HBoxContainer"]
+size_flags_horizontal = 4
+alignment = 1
+script = ExtResource("1_market_ui")

@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1a2b3c4d5e6"]
+
+[ext_resource type="Script" path="res://scripts/ui/PlayerNameInput.gd" id="1_name_input"]
+
+[node name="PlayerNameInput" type="HBoxContainer"]
+theme_override_constants/separation = 20
+script = ExtResource("1_name_input")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Player X Name:"
+
+[node name="LineEdit" type="LineEdit" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 20
+placeholder_text = "Player X"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SiteData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/SiteData.gd" id="1_site"]
+
+[resource]
+script = ExtResource("1_site")
+site_name = "Menzoberranzan"
+capacity = 5
+victory_points = 3
+special_ability = "recruit_drow"
+neighbors = []

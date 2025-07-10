@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CardData.gd" id="1_drow"]
+
+[resource]
+script = ExtResource("1_drow")
+card_name = "House Guard"
+card_text = "+2 Power"
+cost = 2
+faction = "Drow"
+influence = 0
+power = 2
+special_action = ""
+special_action_value = 0
+victory_points = 1

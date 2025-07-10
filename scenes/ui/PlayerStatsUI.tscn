@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4e5f6g7h8ja"]
+
+[ext_resource type="Script" path="res://scripts/ui/PlayerStatsUI.gd" id="1_stats_ui"]
+
+[node name="PlayerStats" type="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4 # Center the container itself
+theme_override_constants/separation = 20
+script = ExtResource("1_stats_ui")
+
+[node name="PlayerNameLabel" type="Label" parent="."]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Player's Turn"
+
+[node name="InfluenceLabel" type="Label" parent="."]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Influence: 0"
+
+[node name="PowerLabel" type="Label" parent="."]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Power: 0"
+
+[node name="EndTurnButton" type="Button" parent="."]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "End Turn"

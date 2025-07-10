@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1e2f3g4h5i6"]
+
+[ext_resource type="Script" path="res://scripts/ui/HandUI.gd" id="1_hand_ui"]
+
+[node name="Hand" type="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4 # Center the container itself
+theme_override_constants/separation = 10
+alignment = 1
+script = ExtResource("1_hand_ui")
